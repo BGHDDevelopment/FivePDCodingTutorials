@@ -1,0 +1,9 @@
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Debug\YouTubeTutorial1.dll
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Debug\YouTubeTutorial1.pdb
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Debug\CalloutAPI.net.dll
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Debug\CitizenFX.Core.dll
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Debug\YouTubeTutorial1.csprojAssemblyReference.cache
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Debug\YouTubeTutorial1.csproj.CoreCompileInputs.cache
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Debug\YouTubeTutorial1.csproj.CopyComplete
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Debug\YouTubeTutorial1.dll
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Debug\YouTubeTutorial1.pdb
