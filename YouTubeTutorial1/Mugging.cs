@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Threading.Tasks;
-using CalloutAPI;
 using CitizenFX.Core;
+using FivePD.API;
 
 namespace YouTubeTutorial1
 {
     
-    [CalloutProperties("Mugging Test", "BGHDDevelopment", "0.0.1", Probability.High)]
+    [CalloutProperties("Mugging Test", "BGHDDevelopment", "0.0.2")]
     public class Mugging : Callout
     {
         Ped suspect, victim;
@@ -17,7 +17,7 @@ namespace YouTubeTutorial1
             float offsetX = rnd.Next(100, 700);
             float offsetY = rnd.Next(100, 700);
             
-            InitBase(World.GetNextPositionOnStreet(Game.PlayerPed.GetOffsetPosition(new Vector3(offsetX, offsetY, 0))));
+            InitInfo(World.GetNextPositionOnStreet(Game.PlayerPed.GetOffsetPosition(new Vector3(offsetX, offsetY, 0))));
 
             ShortName = "Mugging Test";
             CalloutDescription = "This is a callout test for a mugging";
@@ -25,9 +25,10 @@ namespace YouTubeTutorial1
             StartDistance = 120f;
         }
 
-        public async override Task Init()
+        public async override Task OnAccept()
         {
-            OnAccept();
+            InitBlip();
+            UpdateData();
             suspect = await SpawnPed(GetRandomPed(), Location);
             victim = await SpawnPed(GetRandomPed(), Location);
             suspect.AlwaysKeepTask = true;
