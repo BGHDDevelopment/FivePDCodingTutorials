@@ -13,12 +13,7 @@ namespace YouTubeTutorial1
 
         public Mugging()
         {
-            Random rnd = new Random();
-            float offsetX = rnd.Next(100, 700);
-            float offsetY = rnd.Next(100, 700);
-            
-            InitInfo(World.GetNextPositionOnStreet(Game.PlayerPed.GetOffsetPosition(new Vector3(offsetX, offsetY, 0))));
-
+            InitInfo(new Vector3(45.2834f, 268.411f,109.496f));
             ShortName = "Mugging Test";
             CalloutDescription = "This is a callout test for a mugging";
             ResponseCode = 1;
