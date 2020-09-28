@@ -13,7 +13,20 @@ namespace YouTubeTutorial1
 
         public Mugging()
         {
-            InitInfo(new Vector3(45.2834f, 268.411f,109.496f));
+            Random random = new Random();
+            int x = random.Next(1, 100 + 1);
+            if (x <= 40)
+            {
+                InitInfo(new Vector3(-274.567f, 272.508f, 89.877f));
+
+            } else if (x >= 40 && x <= 60)
+            {
+                InitInfo(new Vector3(-552.532f, 232.701f, 82.5242f));
+            }
+            else if(x >= 60)
+            {
+                InitInfo(new Vector3(45.2834f, 268.411f,109.496f));
+            }
             ShortName = "Mugging Test";
             CalloutDescription = "This is a callout test for a mugging";
             ResponseCode = 1;
