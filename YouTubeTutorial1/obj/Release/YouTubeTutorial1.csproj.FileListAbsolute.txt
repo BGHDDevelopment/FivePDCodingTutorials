@@ -6,3 +6,6 @@ C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Release\YouTub
 C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Release\YouTubeTutorial1.net.dll
 C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\obj\Release\YouTubeTutorial1.net.pdb
 C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Release\FivePD.net.dll
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Release\CitizenFX.Core.Client.dll
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Release\CitizenFX.Core.Client.xml
+C:\Users\USER\RiderProjects\YouTubeTutorial1\YouTubeTutorial1\bin\Release\FivePD.net.xml

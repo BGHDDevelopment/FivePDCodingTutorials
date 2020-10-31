@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using CitizenFX.Core;
 using FivePD.API;
+using FivePD.API.Utils;
 
 namespace YouTubeTutorial1
 {
@@ -37,8 +38,8 @@ namespace YouTubeTutorial1
         {
             InitBlip();
             UpdateData();
-            suspect = await SpawnPed(GetRandomPed(), Location);
-            victim = await SpawnPed(GetRandomPed(), Location);
+            suspect = await SpawnPed(RandomUtils.GetRandomPed(), Location);
+            victim = await SpawnPed(RandomUtils.GetRandomPed(), Location);
             suspect.AlwaysKeepTask = true;
             suspect.BlockPermanentEvents = true;
             victim.AlwaysKeepTask = true;
